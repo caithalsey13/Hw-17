@@ -5,11 +5,53 @@ nav {
     padding-left: 20px;
     padding-right: 20px;
 }
-
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+nav h1{
+    display: flex;
+}
 nav ul {
     display: flex;
 }
 nav li {
     list-style: none;
     padding: 20px;
+}
+/*#hero {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 40px;
+}*/
+.mainHero {
+    display: flex;
+    justify-content: center;
+    margin: 0px 100px ;
+}
+.leftContainer {
+    padding: 2%;
+}
+.flexContainer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Montserrat', sans-serif;
+    color: #3C1642;
+    font-size: 20px;
+    background: #B2FF9E;
+    padding: 10px 20px 10px 20px;
+    border: solid #B2FF9E 1px;
+    text-decoration: none;
+}
+.btn:hover {
+    background: #AFFC41;
+    -webkit-box-shadow: 1px 2px 4px #1DD3B0;
+    -moz-box-shadow: 1px 2px 4px #1DD3B0;
+    box-shadow: 1px 2px 4px #1DD3B0;
+    text-decoration: none;
 }
