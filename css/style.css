@@ -271,7 +271,7 @@ nav li {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #086375
+    color: #086375;
     transition: all 0.8s ease;
     background-position: 0px;
     background-size: 200px;
