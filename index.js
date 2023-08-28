@@ -22,7 +22,7 @@ $( ".button_su_inner" ).mouseleave(function(e) {
 });
 
 
-// confetti button 
+// // confetti button 
 // $.fn.boom = function(e) {
 // 	var colors = [
 // 		'#B2FF9E',

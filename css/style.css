@@ -638,8 +638,8 @@ nav li {
 	border-radius: 50%;
 	color: #eee;
 	z-index: 5;
-/* 	filter: url(#gooeyness); */
-/* }
+filter: url(#gooeyness); 
+}
 .btn:active {
 	transform: scale(0.9) translate(-55%, -55%);
-} */ 
+} */
